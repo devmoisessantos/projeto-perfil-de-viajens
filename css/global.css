@@ -1,10 +1,13 @@
+/* CSS RESET */
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
+/* CSS VARIABLES */
 :root {
+    /* Colors */
     --brand-color: #EF5F4C;
     --background-color: #FFFFFF;
     --surface-color: #F5F5F5;
@@ -12,4 +15,11 @@
     --shape-transparency: rgba(255, 255, 255, 0.568);
     --text-color-primary: #313131;
     --text-color-secondary: #6C6C6C;
+
+    /* Fonts */
+    --font-family: 'Poppins', sans-serif;
+    --text: 16px/150% var(--font-family);   /* size / line-height(1.5) / family */
+    --text-sm: 12px/175% var(--font-family);
+    --text-md: 14px/175% var(--font-family);
+    --text-lg: bold 32px/125% var(--font-family);
 }
