@@ -1,3 +1,5 @@
 @import url('global.css'); /* importando o CSS global */
 @import url('nav.css'); /* importando o CSS da barra de navegação */
-@import url('header.css'); /* importando o CSS do cabeçalho */
+@import url('header.css'); /* import CSS do cabeçalho */
+@import url('main.css'); /* CSS do conteúdo principal | Imagens */
+@import url('footer.css'); /* CSS para rodapé */
