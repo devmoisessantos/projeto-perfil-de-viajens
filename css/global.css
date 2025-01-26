@@ -19,8 +19,8 @@
     /* Fonts */
     --font-family: 'Poppins', sans-serif;
     --text: 16px/150% var(--font-family);   /* size / line-height(1.5) / family */
-    --text-sm: 12px/175% var(--font-family);
-    --text-md: 14px/175% var(--font-family);
+    --text-sm: 12px/170% var(--font-family);
+    --text-md: 14px/170% var(--font-family);
     --text-lg: bold 32px/125% var(--font-family);
 }
 
@@ -33,6 +33,10 @@ body {
 a {
     text-decoration: none;
     color: inherit; /* herdar a cor do pai */
+}
+
+h1 {
+    font: var(--text-lg);
 }
 
 a:hover {
@@ -50,3 +54,4 @@ a:hover {
 .bg-surface-color {
     background-color: var(--surface-color);
 }
+
